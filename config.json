@@ -1,0 +1,40 @@
+{
+  "everySeconds": 8,
+
+  "mainCountry": "www.vinted.fr",
+  "otherCountries": [
+    "www.vinted.be", "www.vinted.es", "www.vinted.it", "www.vinted.de", "www.vinted.at",
+    "www.vinted.nl", "www.vinted.lu", "www.vinted.pt", "www.vinted.ie", "www.vinted.fi",
+    "www.vinted.gr", "www.vinted.sk", "www.vinted.lt", "www.vinted.hr"
+  ],
+
+  "dealRatio": 0.5,
+  "topRatio": 0.35,
+  "minSamples": 6,
+
+  "streams": [
+    { "name": "📱 iPhone", "query": "iphone", "catalog": "3661" },
+    { "name": "📲 iPad", "query": "ipad" },
+    { "name": "💻 MacBook", "query": "macbook" }
+  ],
+
+  "minPrice": { "iphone": 25, "ipad": 35, "macbook": 70 },
+  "unknownCap": { "iphone": 60, "ipad": 70, "macbook": 180 },
+
+  "exclude": [
+    "pour iphone", "pour ipad", "pour macbook", "compatible", "fur iphone", "para iphone", "per iphone", "voor iphone",
+    "boite seule", "boite vide", "boite d'iphone", "boite d’iphone", "boite iphone", "boite apple", "nur karton", "solo caja",
+    "factice", "maquette", "dummy", "attrape", "airpods", "ecouteur", "montre", "bracelet", "apple watch", "airtag",
+    "location", "echange uniquement", "je recherche", "je cherche", "suche", "busco", "cerco", "zoek"
+  ],
+
+  "heavyDamage": [
+    "icloud", "bloque", "verrouille", "blacklist", "liste noire", "mdm", "frp", "compte apple", "gesperrt", "bloqueado", "bloccato",
+    "pour pieces", "pour piece", "pieces detachees", "fur teile", "para piezas", "per pezzi", "per ricambi", "voor onderdelen", "ersatzteil",
+    "hs total", "totalement hs", "completement hs", "entierement hs",
+    "ne s'allume", "ne s allume", "s'allume pas", "s allume pas", "s'allume plus", "s allume plus", "ne demarre", "demarre pas",
+    "geht nicht an", "no enciende", "non si accende", "gaat niet aan",
+    "carte mere", "noye", "oxyd", "tombe dans l'eau", "wasserschaden", "ecran noir", "ne charge pas", "ne charge plus",
+    "mot de passe", "code oublie", "bios", "bootloop", "boucle"
+  ]
+}
